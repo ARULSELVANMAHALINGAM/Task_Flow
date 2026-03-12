@@ -8,4 +8,7 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
+  preview: {
+    allowedHosts: ["taskflow-frontend-tzmr.onrender.com"]
+  }
 })
