@@ -20,6 +20,11 @@ app.include_router(projects.router, tags=["Projects"])
 app.include_router(tasks.router, tags=["Tasks"])
 
 
+@app.get("/")
+def root():
+    return {"message": "TaskFlow Backend Running"}
+
+
 
 @app.post("/parse-log")
 def parse_log(payload: dict):
