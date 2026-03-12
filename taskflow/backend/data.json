@@ -1,0 +1,53 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Demo User",
+            "email": "demo@taskflow.com",
+            "password": "password"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Project Alpha",
+            "description": "Test description",
+            "created_by": 1
+        },
+        {
+            "id": 2,
+            "project_name": "Project Beta",
+            "description": "Beta description",
+            "created_by": 1
+        },
+        {
+            "id": 3,
+            "project_name": "Project Gamma",
+            "description": "Gamma  dssss",
+            "created_by": 1
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "title": "unvdmz",
+            "description": "qwertyuiokjhgfddvb",
+            "project_id": 1,
+            "assigned_user_id": 1,
+            "status": "In Progress",
+            "created_at": null
+        },
+        {
+            "id": 2,
+            "title": "fdbgnhhv",
+            "description": "shuavfgbfkvlajlg",
+            "project_id": 1,
+            "assigned_user_id": 2,
+            "status": "Pending",
+            "created_at": null
+        }
+    ],
+    "user_id_counter": 2,
+    "project_id_counter": 4,
+    "task_id_counter": 3
+}
